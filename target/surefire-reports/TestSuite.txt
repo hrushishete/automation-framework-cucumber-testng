@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.94 s <<< FAILURE! -- in TestSuite
+TestNgTestRunners.TestNGRunnersTest.runScenario["Search experience for product search in both home and offers page", "Search and place order for product"](2) -- Time elapsed: 25.97 s <<< FAILURE!
+java.lang.AssertionError: expected [No data] but found [Beetroot]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at Stepdefinitions.OfferPageStepDefinition.validate_same_product_name_in_product_page_and_offer_page(OfferPageStepDefinition.java:36)
+	at ✽.validate same product name in product page and offer page(file:///C:/Users/hshete/OneDrive%20-%20Capgemini/Study%20resources/Demo%20frameworks/RahulShettyAcademy/src/test/java/features/searchProducat.feature:9)
+
